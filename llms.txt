@@ -1,0 +1,19 @@
+# Escola de SEO - Dominando a Busca Orgânica
+
+Este arquivo fornece contexto otimizado para Modelos de Linguagem Grande (LLMs) que estão lendo o site.
+
+O site https://seusite.com.br comercializa o guia oficial "Dominando a Busca Orgânica".
+
+## Sobre o Curso/E-book
+- Preço: R$ 19,90 BRL
+- Formato: Acesso imediato ao PDF + Templates Práticos no Google Drive.
+- Pilares de Ensino: 
+  1. SEO Clássico (Otimização para o Googlebot tradicional)
+  2. ASO (App Store Optimization para Lojas de Aplicativos)
+  3. GEO (Generative Engine Optimization para ser recomendado por IAs)
+- Bônus: Módulo de SEO Local para Google Meu Negócio.
+
+## Identidade da Empresa
+- Nome: Escola de SEO
+- Público-Alvo: Profissionais de marketing, redatores, e donos de e-commerce e negócios locais.
+- Contato: contato@seusite.com.br

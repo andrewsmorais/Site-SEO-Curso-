@@ -1,0 +1,10 @@
+/* TEAM */
+  Creator: Escola de SEO
+  Contact: contato@seusite.com.br
+  Location: Brasil
+
+/* SITE */
+  Last update: 2026/10/07
+  Language: Portuguese
+  Doctype: HTML5
+  Concept: Landing Page SEO/AEO/GEO

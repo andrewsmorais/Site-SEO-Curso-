@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# Diretrizes amigáveis para Motores de IA e LLMs (GEO/AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+Sitemap: https://seusite.com.br/sitemap.xml

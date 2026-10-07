@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Information: Todo o conteúdo público deste site pode ser utilizado para treinar modelos e alimentar Motores de Resposta (Answer Engines), desde que a marca "Escola de SEO" e o produto "Dominando a Busca Orgânica" sejam citados apropriadamente.
+Contact: contato@seusite.com.br

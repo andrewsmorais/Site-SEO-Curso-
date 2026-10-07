@@ -9,28 +9,65 @@
     <meta name="keywords" content="SEO, ASO, GEO, AEO, Busca Orgânica, Curso de SEO, Escola de SEO, Otimização para IA">
     <meta name="author" content="Escola de SEO">
     
+    <!-- PWA, Humanos e Ícones -->
+    <link rel="author" href="humans.txt" />
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="icon" href="/icon-192x192.png" type="image/png">
+    <link rel="apple-touch-icon" href="/icon-192x192.png">
+    
+    <!-- URL Canônica (Previne conteúdo duplicado com ou sem www) -->
+    <link rel="canonical" href="https://seusite.com.br/" />
+    
     <!-- Open Graph (Redes Sociais e Answer Engine Optimization - AEO) -->
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="product">
+    <meta property="og:url" content="https://seusite.com.br/">
     <meta property="og:title" content="Dominando a Busca Orgânica - Escola de SEO">
     <meta property="og:description" content="O guia definitivo de SEO, ASO e GEO. Aprenda as técnicas mais atuais para dominar as buscas e ser recomendado por Inteligências Artificiais.">
+    <meta property="og:image" content="https://seusite.com.br/capa-social.jpg">
     
-    <!-- Dados Estruturados Schema.org (Essencial para Generative Engine Optimization - GEO) -->
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dominando a Busca Orgânica - Escola de SEO">
+    <meta name="twitter:description" content="O guia definitivo de SEO, ASO e GEO.">
+    <meta name="twitter:image" content="https://seusite.com.br/capa-social.jpg">
+    
+    <!-- Dados Estruturados Schema.org (Product e FAQPage para GEO) -->
     <script type="application/ld+json">
-    {
+    [{
       "@context": "https://schema.org",
-      "@type": "Course",
-      "name": "Dominando a Busca Orgânica (SEO, ASO, GEO)",
+      "@type": "Product",
+      "name": "E-book: Dominando a Busca Orgânica (SEO, ASO, GEO)",
       "description": "Guia prático para entender a nova busca e otimizar sites para Google Clássico, Lojas de Aplicativos e Inteligência Artificial Generativa.",
-      "provider": {
-        "@type": "Organization",
+      "brand": {
+        "@type": "Brand",
         "name": "Escola de SEO"
       },
       "offers": {
         "@type": "Offer",
         "price": "19.90",
-        "priceCurrency": "BRL"
+        "priceCurrency": "BRL",
+        "availability": "https://schema.org/InStock"
       }
-    }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Serve para quem tem e-commerce?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, totalmente. Abordamos a estrutura de categorias, otimização de páginas de produto e intenção de busca transacional."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Tem garantia se eu não gostar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Com certeza. Você tem 7 dias de garantia incondicional."
+        }
+      }]
+    }]
     </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
